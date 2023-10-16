@@ -8,6 +8,7 @@ padding-top: 50px;
     background-color: rgb(255, 253, 253);
     width: 95%;
     margin: auto;
+   
     }
 
 header>img{
@@ -16,16 +17,24 @@ padding-top: 20px;
 padding-left: 50px;
 float: left;
 
+
 }
 
 h1{
 padding-top: 20px;
 padding-left: 20px;
-font-size: 60px;
+font-size: 40px;
 font-family: "futura";
 text-align: center;
 
+
 }
+h2{
+    font-size: 15px;
+    font-style: italic;
+
+}
+
 body{
     font-size: 15px;
     font-family: "futura";
@@ -93,6 +102,7 @@ margin: 0 auto;
     font-size: 60px;
     font-family: "futura";
     text-align: center;
+    font-size: 25px;
 }
 
 /*carousel style*/
@@ -166,14 +176,14 @@ margin: 0 auto;
     -ms-overflow-style: none;
   }
   
-  
+
   .carousel {
     position: relative;
     padding-top: 75%;
     filter: drop-shadow(0 0 10px #0003);
     perspective: 100px;
-  }
-  
+ 
+    
   .carousel__viewport {
     position: absolute;
     top: 0;
@@ -315,5 +325,24 @@ margin: 0 auto;
     background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='100,50 20,100 20,0' fill='%23fff'/%3E%3C/svg%3E");
   }
 
-
-
+  /* style for glow*/
+  
+  body {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #aeddb3, 0 0 40px #58e73f, 0 0 50px #00e626, 0 0 60px #88eb8e, 0 0 70px #73e4a4;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #2aa444, 0 0 40px #1bee5b, 0 0 50px #90c29a, 0 0 60px #24aa43, 0 0 70px #13792f, 0 0 80px #97eea0;
+    }
