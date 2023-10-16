@@ -21,6 +21,7 @@ body{
      
       }
   
+<<<<<<< HEAD
   
   
   }
@@ -40,6 +41,23 @@ body{
   
   }
   
+=======
+  #maincontent h1{
+  padding-top: 20px;
+  padding-left: 20px;
+  font-size: 40px;
+  font-family: "futura";
+  text-align: center;
+  
+  
+  }
+  #maincontent h2{
+      font-size: 15px;
+      font-style: italic;
+  
+  }
+  
+>>>>>>> products
   body{
       font-size: 15px;
       font-family: "futura";
