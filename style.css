@@ -159,7 +159,7 @@ margin: 0 auto;
     scrollbar-width: 0px;
   }
   
-  *::-webkit-scrollbar {
+  *::-webkit-scrollbar { 
     width: 0;
   }
   
@@ -346,3 +346,37 @@ margin: 0 auto;
     to {
       text-shadow: 0 0 20px #fff, 0 0 30px #2aa444, 0 0 40px #1bee5b, 0 0 50px #90c29a, 0 0 60px #24aa43, 0 0 70px #13792f, 0 0 80px #97eea0;
     }
+ 
+    /* carousel slide */
+    .carousel__slide img[src="images/png.4.png"] {
+        max-width: 50%;
+        max-height: 50%;
+        display: block;
+        margin: 0 auto;
+        height: auto;
+      }
+      
+      .carousel__slide img[src="images/png.6.png"] {
+        max-width: 50%;
+        max-height: 50%;
+        display: block;
+        margin: 0 auto;
+        height: auto;
+      }
+      
+      .carousel__slide img[src="images/png.7.png"] {
+        max-width: 50%;
+        max-height: 50%;
+        display: block;
+        margin: 0 auto;
+        height: auto;
+      }
+      
+      .carousel__slide img[src="images/plant2.png"] {
+        max-width: 100%;
+        max-height: 100%;
+        display: block;
+        margin: 0 auto;
+        height: auto;
+      }
+      
