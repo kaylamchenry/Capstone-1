@@ -1,12 +1,12 @@
 /* start of the home page style */
 body{
-background: rgb(63, 161, 251);
+background: rgb(253, 253, 253);
   background: linear-gradient(
     142deg,
-    rgba(63, 161, 251, 1) 0%,
-    rgba(252, 70, 168, 1) 100%
+    rgb(201, 224, 204) 0%,
+    rgb(11, 109, 34) 100%
   );
-  color:white;
+  color:rgb(242, 206, 206);
   }
 
 #wrapper{
@@ -122,20 +122,20 @@ margin: auto;
 
 .sweet-title {
   order: 2;
-  color: #fde9ff;
+  color: #fefefe;
   font-weight: 900;
   text-transform: uppercase;
   font-size: clamp(3rem, 10vw, 6rem);
   line-height: 0.75em;
   text-align: center;
-  text-shadow: 3px 1px 1px #4af7ff, 2px 2px 1px #165bfb, 4px 2px 1px #4af7ff,
-    3px 3px 1px #165bfb, 5px 3px 1px #4af7ff, 4px 4px 1px #165bfb,
-    6px 4px 1px #4af7ff, 5px 5px 1px #165bfb, 7px 5px 1px #4af7ff,
-    6px 6px 1px #165bfb, 8px 6px 1px #4af7ff, 7px 7px 1px #165bfb,
-    9px 7px 1px #4af7ff;
+  text-shadow: 3px 1px 1px #000000, 2px 2px 1px #165bfb, 4px 2px 1px #4af7ff,
+    3px 3px 1px #2bba56, 5px 3px 1px #0a3f1a, 4px 4px 1px #54894e,
+    6px 4px 1px #439d57, 5px 5px 1px #408e57, 7px 5px 1px #38a653,
+    6px 6px 1px #1dac48, 8px 6px 1px #d8f0f1, 7px 7px 1px #103622,
+    9px 7px 1px #16f69c;
 
   span {
-    display: block;
+    display:block;
     position: relative;
 
     &:before {
