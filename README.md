@@ -5,7 +5,7 @@ WildBloom Exotics is an online plant store that offeres a unique inventory of sp
 ## Built With
 -[HTML] (#html)
 -[CSS] (#css)
--[Bootstrap 5] (#bootstrap5)
+-[Bootstrap] (#bootstrap)
 
 ## Page Descriptions
 
@@ -15,12 +15,12 @@ WildBloom Exotics is an online plant store that offeres a unique inventory of sp
 ## user-registration.html & login.html 
    These pages manage the user exoerience pertaining to account creatuin and user authention, allowuing users to access the website.
 
-   ![Feature X](screenshots/feature-x.png)
+   ![Feature X](images/screenshot1USER.png.png)
 
 ## products.html
    A dedicated page to display inventory available for purchase.
 
-      ![Feature X](screenshots/feature-x.png)
+    ![Feature X](images/screensho.png.png)
    
 ## checkout.html
    This page presents all the necesarry information and options related to the checkout process. Including paymemt options and adding items to a shopping cart.
